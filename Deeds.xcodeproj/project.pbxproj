@@ -680,12 +680,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DBA0123DD9CFCAD92B15363 /* All Stuff */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "All Stuff";
+			sourceTree = "<group>";
+		};
 		717DC85018D8DE5200959DD1 = {
 			isa = PBXGroup;
 			children = (
 				717DC87418D8DE5300959DD1 /* Deeds */,
 				717DC85B18D8DE5200959DD1 /* Frameworks */,
 				717DC85A18D8DE5200959DD1 /* Products */,
+				2DBA0123DD9CFCAD92B15363 /* All Stuff */,
 			);
 			sourceTree = "<group>";
 		};
