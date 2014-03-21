@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2DBA03C87DD737C509CFF1CA /* spritemap-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA0C63AE8E7732E5408ADB /* spritemap-ipadhd.png */; };
 		2DBA04151A3ABBD7825500AD /* spritemap-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA024917C48279D7A54014 /* spritemap-ipadhd.plist */; };
+		2DBA06C4942C188732E744BA /* boomboom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA053AD9F6101DAD29B446 /* boomboom.ttf */; };
 		717DC85D18D8DE5200959DD1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717DC85C18D8DE5200959DD1 /* QuartzCore.framework */; };
 		717DC85F18D8DE5200959DD1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717DC85E18D8DE5200959DD1 /* OpenGLES.framework */; };
 		717DC86118D8DE5200959DD1 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717DC86018D8DE5200959DD1 /* OpenAL.framework */; };
@@ -212,7 +213,6 @@
 		717DCAFE18D8DE5500959DD1 /* LICENSE_Chipmunk.txt in Resources */ = {isa = PBXBuildFile; fileRef = 717DCAFD18D8DE5500959DD1 /* LICENSE_Chipmunk.txt */; };
 		717DCB0218D8DE5500959DD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 717DCB0118D8DE5500959DD1 /* main.m */; };
 		717DCB0618D8DE5500959DD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 717DCB0518D8DE5500959DD1 /* AppDelegate.m */; };
-		717DCB0918D8DE5500959DD1 /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 717DCB0818D8DE5500959DD1 /* HelloWorldScene.m */; };
 		717DCB0C18D8DE5500959DD1 /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 717DCB0B18D8DE5500959DD1 /* IntroScene.m */; };
 /* End PBXBuildFile section */
 
@@ -228,6 +228,7 @@
 
 /* Begin PBXFileReference section */
 		2DBA024917C48279D7A54014 /* spritemap-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; name = "spritemap-ipadhd.plist"; path = "Resources/spritemap-ipadhd.plist"; sourceTree = "<group>"; };
+		2DBA053AD9F6101DAD29B446 /* boomboom.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = boomboom.ttf; sourceTree = "<group>"; };
 		2DBA0C63AE8E7732E5408ADB /* spritemap-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "spritemap-ipadhd.png"; path = "Resources/spritemap-ipadhd.png"; sourceTree = "<group>"; };
 		717DC85918D8DE5200959DD1 /* Deeds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deeds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		717DC85C18D8DE5200959DD1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -653,8 +654,6 @@
 		717DCB0118D8DE5500959DD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
 		717DCB0418D8DE5500959DD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		717DCB0518D8DE5500959DD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		717DCB0718D8DE5500959DD1 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		717DCB0818D8DE5500959DD1 /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
 		717DCB0A18D8DE5500959DD1 /* IntroScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroScene.h; path = Classes/IntroScene.h; sourceTree = "<group>"; };
 		717DCB0B18D8DE5500959DD1 /* IntroScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IntroScene.m; path = Classes/IntroScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -685,6 +684,15 @@
 			children = (
 			);
 			path = "All Stuff";
+			sourceTree = "<group>";
+		};
+		2DBA0FD14F940D4EEEE0E0F5 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2DBA053AD9F6101DAD29B446 /* boomboom.ttf */,
+			);
+			name = fonts;
+			path = Resources/fonts;
 			sourceTree = "<group>";
 		};
 		717DC85018D8DE5200959DD1 = {
@@ -746,6 +754,7 @@
 				717DC87E18D8DE5300959DD1 /* Icons */,
 				2DBA024917C48279D7A54014 /* spritemap-ipadhd.plist */,
 				2DBA0C63AE8E7732E5408ADB /* spritemap-ipadhd.png */,
+				2DBA0FD14F940D4EEEE0E0F5 /* fonts */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1556,8 +1565,6 @@
 			children = (
 				717DCB0418D8DE5500959DD1 /* AppDelegate.h */,
 				717DCB0518D8DE5500959DD1 /* AppDelegate.m */,
-				717DCB0718D8DE5500959DD1 /* HelloWorldScene.h */,
-				717DCB0818D8DE5500959DD1 /* HelloWorldScene.m */,
 				717DCB0A18D8DE5500959DD1 /* IntroScene.h */,
 				717DCB0B18D8DE5500959DD1 /* IntroScene.m */,
 			);
@@ -1658,6 +1665,7 @@
 				717DC89D18D8DE5300959DD1 /* iTunesArtwork@2x in Resources */,
 				2DBA04151A3ABBD7825500AD /* spritemap-ipadhd.plist in Resources */,
 				2DBA03C87DD737C509CFF1CA /* spritemap-ipadhd.png in Resources */,
+				2DBA06C4942C188732E744BA /* boomboom.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1763,7 +1771,6 @@
 				717DC94F18D8DE5300959DD1 /* ccShaders.m in Sources */,
 				717DCA6318D8DE5400959DD1 /* matrix.c in Sources */,
 				717DC97518D8DE5400959DD1 /* CCTiledMapLayer.m in Sources */,
-				717DCB0918D8DE5500959DD1 /* HelloWorldScene.m in Sources */,
 				717DCA6918D8DE5400959DD1 /* neon_matrix_impl.c in Sources */,
 				717DC8EE18D8DE5300959DD1 /* CCLabelTTF.m in Sources */,
 				717DC9A318D8DE5400959DD1 /* NSEvent+CC.m in Sources */,

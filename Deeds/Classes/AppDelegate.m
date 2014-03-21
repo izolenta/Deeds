@@ -9,7 +9,6 @@
 
 #import "AppDelegate.h"
 #import "IntroScene.h"
-#import "HelloWorldScene.h"
 
 @implementation AppDelegate
 
@@ -30,11 +29,11 @@
 		// (See CCAppDelegate.h for more information)
 		
 		// Use a 16 bit color buffer: 
-//		CCSetupPixelFormat: kEAGLColorFormatRGB565,
+		CCSetupPixelFormat: kEAGLColorFormatRGB565,
 		// Use a simplified coordinate system that is shared across devices.
 //		CCSetupScreenMode: CCScreenModeFixed,
 		// Run in portrait mode.
-//		CCSetupScreenOrientation: CCScreenOrientationPortrait,
+		CCSetupScreenOrientation: CCScreenOrientationPortrait,
 		// Run at a reduced framerate.
 //		CCSetupAnimationInterval: @(1.0/30.0),
 		// Run the fixed timestep extra fast.
@@ -48,7 +47,6 @@
 
 -(CCScene *)startScene
 {
-	// This method should return the very first scene to be run when your app starts.
 	return [IntroScene scene];
 }
 

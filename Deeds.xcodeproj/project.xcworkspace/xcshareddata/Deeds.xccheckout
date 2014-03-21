@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B796A531-F2E9-4C7B-BD5B-EF3ECFF11865</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Deeds</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>05705971-D1FE-440C-BB36-62B0AD5051DD</key>
+		<string>https://github.com/izolenta/Deeds.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Deeds.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>05705971-D1FE-440C-BB36-62B0AD5051DD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/izolenta/Deeds.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>05705971-D1FE-440C-BB36-62B0AD5051DD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>05705971-D1FE-440C-BB36-62B0AD5051DD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Deeds</string>
+		</dict>
+	</array>
+</dict>
+</plist>
