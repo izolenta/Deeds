@@ -36,6 +36,31 @@
     header.position = ccp(384,768);
     [spriteSheet addChild:header];
 
+    CCSprite *btn_edit = [CCSprite spriteWithSpriteFrame:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"edit-128.png"]];
+    btn_edit.position = ccp(640,60);
+    btn_edit.anchorPoint = ccp(0,0);
+    [spriteSheet addChild:btn_edit];
+
+    CCSprite *btn_sett = [CCSprite spriteWithSpriteFrame:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"settings-128.png"]];
+    btn_sett.position = ccp(540,60);
+    btn_sett.anchorPoint = ccp(0,0);
+    [spriteSheet addChild:btn_sett];
+
+    CCLabelTTF *plan1 = [CCLabelTTF labelWithString:@"ПЛАНИРОВЩИК" fontName:@"Boomboom" fontSize:52];
+    plan1.position = ccp(384, 580);
+    plan1.fontColor = [CCColor colorWithCcColor3b:ccc3(255,113,0)];
+    [self addChild:plan1];
+
+    CCLabelTTF *plan2 = [CCLabelTTF labelWithString:@"ДОМАШНИХ" fontName:@"Boomboom" fontSize:52];
+    plan2.position = ccp(384, 500);
+    plan2.fontColor = [CCColor colorWithCcColor3b:ccc3(255,113,0)];
+    [self addChild:plan2];
+
+    CCLabelTTF *plan3 = [CCLabelTTF labelWithString:@"ДЕЛ" fontName:@"Boomboom" fontSize:52];
+    plan3.position = ccp(384, 420);
+    plan3.fontColor = [CCColor colorWithCcColor3b:ccc3(255,113,0)];
+    [self addChild:plan3];
+
     /*
     // Create a colored background (Dark Grey)
     CCNodeColor *background = [CCNodeColor nodeWithColor:[CCColor colorWithRed:0.2f green:0.2f blue:0.2f alpha:1.0f]];

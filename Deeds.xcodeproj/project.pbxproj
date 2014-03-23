@@ -2012,6 +2012,7 @@
 				717DCB1118D8DE5500959DD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		717DCB1218D8DE5500959DD1 /* Build configuration list for PBXNativeTarget "Deeds" */ = {
 			isa = XCConfigurationList;
@@ -2020,6 +2021,7 @@
 				717DCB1418D8DE5500959DD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
